@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonmas Gruppe | Informal Retail Distribution & Wholesale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0A192F',
+                            blue: '#1E3A8A',
+                            accent: '#2563EB',
+                            light: '#F8FAFC',
+                            dark: '#020617'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <svg class="h-12 w-auto" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="bGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#2D4A6F"/>
+                            <stop offset="50%" stop-color="#1A324B"/>
+                            <stop offset="100%" stop-color="#0B1A2A"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M 40,35 C 105,35 125,75 105,120 C 135,145 130,225 40,225 Z" fill="none" stroke="url(#bGradient)" stroke-width="32" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M 50,55 L 50,205 L 85,205 C 135,205 135,145 90,132 C 120,120 115,55 50,55 Z" fill="url(#bGradient)"/>
+                    <path d="M 125,126 L 45,126 L 75,108 M 75,144 L 45,126" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <text x="145" y="118" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="62" fill="#000000" letter-spacing="3">BONMAS</text>
+                    <line x1="145" y1="138" x2="385" y2="138" stroke="#000000" stroke-width="7"/>
+                    <text x="150" y="210" font-family="'Times New Roman', Times, serif" font-size="52" fill="#000000" letter-spacing="14">GRUPPE</text>
+                </svg>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 font-medium text-slate-700">
+                <a href="#about" class="hover:text-blue-600 transition-colors">About Us</a>
+                <a href="#brands" class="hover:text-blue-600 transition-colors">Our Brands</a>
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+            </nav>
+
+            <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-blue-700 text-white font-semibold shadow-md hover:bg-blue-800 transition-all">
+                Get in Touch
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-slate-900 text-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-6">
+                    Informal Retail Distribution Partner
+                </span>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Empowering Informal Retailers & Street Vendors
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-300 mb-8 leading-relaxed">
+                    Bonmas Gruppe delivers essential products, inventory management, and marketing support directly to your doorstep. Sourcing made easier, more affordable, and reliable.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="px-7 py-3.5 rounded-lg bg-blue-600 text-white font-semibold shadow-lg hover:bg-blue-500 transition-all">
+                        Partner With Us
+                    </a>
+                    <a href="#services" class="px-7 py-3.5 rounded-lg bg-slate-800 text-slate-200 border border-slate-700 font-semibold hover:bg-slate-700 transition-all">
+                        Explore Our Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Who We Are</h2>
+                <p class="text-lg text-slate-600 leading-relaxed">
+                    Bonmas Gruppe is a vibrant, customer-centric informal retail distribution company dedicated to supplying essential goods and products to informal retailers and street vendors across Johannesburg. With a deep understanding of local market dynamics, we provide efficient, reliable, and convenient distribution solutions.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl font-bold mb-6">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Our Mission</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        At Bonmas Gruppe, our mission is to make it easier for street vendors and informal retailers to access the products they need to grow their businesses. Through our own wholesale store, we provide a wide range of essential products under one roof, making sourcing easier, more affordable, and more efficient. We are also expanding into the bakery sector through our partnership with Krem Fine Bakers, allowing us to bring quality bakery products directly to informal retailers and street vendors. Our goal is to build a reliable supply network that empowers informal retailers, strengthens local businesses, and helps communities thrive.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl font-bold mb-6">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Our Vision</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Our vision is to become the leading distribution and wholesale partner for informal retailers, creating a reliable supply network that enables entrepreneurs to access quality products, grow their businesses, and serve their communities more effectively. At Bonmas Gruppe, we believe that when informal retailers have better access to products, better supply solutions, and dependable business partners, local businesses thrive, communities grow, and opportunities are created.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section id="brands" class="py-20 bg-slate-50 border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Our Brand Family</h2>
+                <p class="text-slate-600">Bringing diverse, high-quality essential consumer goods to informal retailers and local communities.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="h-12 w-12 rounded-lg bg-slate-900 text-white flex items-center justify-center font-bold text-xl mb-6">BG</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Bonmas Gruppe</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            An informal retail distribution and wholesale company supplying essential products to street vendors and informal retailers. We make sourcing easier, more affordable, and reliable.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-50 py-1.5 px-3 rounded-md w-max">Wholesale & Distribution</span>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="h-12 w-12 rounded-lg bg-pink-600 text-white flex items-center justify-center font-bold text-xl mb-6"><i class="fa-solid fa-cookie-bite"></i></div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Sweet Mania</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            A confectionery and sweets brand providing a variety of quality sweets, treats, and snack products to retailers, vendors, and consumers.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-pink-600 bg-pink-50 py-1.5 px-3 rounded-md w-max">Confectionery & Snacks</span>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="h-12 w-12 rounded-lg bg-amber-600 text-white flex items-center justify-center font-bold text-xl mb-6"><i class="fa-solid fa-bread-slice"></i></div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">Krem Fine Bakers</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-6">
+                            A bakery focused on producing quality, fresh bakery products for retailers, vendors, and consumers, bringing convenient and affordable baked goods to local communities.
+                        </p>
+                    </div>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600 bg-amber-50 py-1.5 px-3 rounded-md w-max">Fresh Bakery Products</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Value-Added Services</h2>
+                <p class="text-slate-600">Tailored solutions designed to help informal merchants build profitable and sustainable retail businesses.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-all">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center mb-4"><i class="fa-solid fa-truck"></i></div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Product Distribution</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Delivering a wide variety of essential goods directly to informal retailer's doorstep.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-all">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center mb-4"><i class="fa-solid fa-boxes-stacked"></i></div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Inventory Management</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Offers inventory management solutions to optimize stock levels, reduce wastage, and boost profitability for retailers.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-all">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center mb-4"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Marketing Support</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        We offer marketing support services to help retailers promote their products and attract customers.
+                    </p>
+                </div>
+
+                <div class="p-6 rounded-xl bg-slate-50 border border-slate-100 hover:border-blue-200 transition-all">
+                    <div class="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center mb-4"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Training & Development</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Committed to supporting the growth and success of informal retailers by providing training and development programs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Get In Touch With Us</h2>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Have questions about our wholesale catalog, distribution routes, or partnership opportunities? Reach out to us directly or drop us a message using the form.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-slate-800 text-blue-400 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white">Physical Address</h4>
+                                <p class="text-slate-400 text-sm">676 Gallagher Avenue, Halfway House, Midrand 1685</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-slate-800 text-blue-400 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white">Phone</h4>
+                                <p class="text-slate-400 text-sm"><a href="tel:0722894788" class="hover:text-white transition-colors">072 289 4788</a></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-slate-800 text-blue-400 flex items-center justify-center flex-shrink-0"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4 class="font-semibold text-white">Email</h4>
+                                <p class="text-slate-400 text-sm"><a href="mailto:info@bonmasgruppe.com" class="hover:text-white transition-colors">info@bonmasgruppe.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-8 border-t border-slate-800">
+                        <h4 class="font-semibold text-white mb-4">Follow Us</h4>
+                        <div class="flex gap-4">
+                            <a href="https://web.facebook.com/profile.php?id=61594597808288" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-blue-600 text-slate-300 hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/bonmasgruppe/" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-pink-600 text-slate-300 hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@bonmasgruppe" target="_blank" rel="noopener" class="w-10 h-10 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                    <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent successfully.');" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Full Name</label>
+                            <input type="text" required placeholder="John Doe" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Email Address</label>
+                            <input type="email" required placeholder="john@example.com" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Phone Number</label>
+                            <input type="tel" placeholder="072 000 0000" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-300 mb-1">Message</label>
+                            <textarea rows="4" required placeholder="How can we help your business?" class="w-full px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-700 text-white focus:outline-none focus:border-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3 rounded-lg bg-blue-600 hover:bg-blue-500 font-semibold text-white transition-colors shadow-md">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <svg class="h-10 w-auto" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 40,35 C 105,35 125,75 105,120 C 135,145 130,225 40,225 Z" fill="none" stroke="#FFFFFF" stroke-width="32" stroke-linecap="square" stroke-linejoin="round"/>
+                    <path d="M 50,55 L 50,205 L 85,205 C 135,205 135,145 90,132 C 120,120 115,55 50,55 Z" fill="#FFFFFF"/>
+                    <path d="M 125,126 L 45,126 L 75,108 M 75,144 L 45,126" fill="none" stroke="#020617" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+                    <text x="145" y="118" font-family="'Times New Roman', Times, serif" font-weight="bold" font-size="62" fill="#FFFFFF" letter-spacing="3">BONMAS</text>
+                    <line x1="145" y1="138" x2="385" y2="138" stroke="#FFFFFF" stroke-width="7"/>
+                    <text x="150" y="210" font-family="'Times New Roman', Times, serif" font-size="52" fill="#FFFFFF" letter-spacing="14">GRUPPE</text>
+                </svg>
+            </div>
+            <p class="text-sm">&copy; 2026 Bonmas Gruppe (Pty) Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
